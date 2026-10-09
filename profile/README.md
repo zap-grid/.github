@@ -8,10 +8,9 @@
 
 - **No garbage collector.** Ownership and borrowing free memory at known points.
 - **Clean syntax.** Words instead of symbols, easy to read at a glance.
-- **One language for everything.** Kernels, drivers, engines, servers, apps and scripts.
+- **One language for everything.** Kernels, drivers, engines, shaders, servers, apps and scripts.
 - **Made for agents.** Compact to write, plain for humans to review.
 - **A compiler that does the work.** It infers, checks and optimises so the code doesn't have to.
-- **Shaders in Zap too.** One language from the CPU to the GPU.
 
 Like a power grid, this organization connects the pieces that Zap energizes:
 

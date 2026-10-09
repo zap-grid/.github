@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Zap</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f2147"/>
+      <stop offset="1" stop-color="#3b2a8c"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff27a"/>
+      <stop offset="0.55" stop-color="#ffd23f"/>
+      <stop offset="1" stop-color="#ff9f1c"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#tile)"/>
+  <!-- a Z struck like a bolt: top bar, a stepped diagonal, bottom bar -->
+  <path filter="url(#glow)" fill="url(#bolt)" stroke="#fff6b8" stroke-width="2" stroke-linejoin="round"
+    d="M58 50 H198 V78 L136 126 H170 L98 178 H198 V206 H58 V178 L120 130 H86 L158 78 H58 Z"/>
+</svg>
